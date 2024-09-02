@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\2303783\git\repository3\MyCareerApp\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">32 methods,   32 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="AquiredSkills">AquiredSkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="BehavioralSkills">BehavioralSkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="Clusters">Clusters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="DomainSkills">DomainSkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="FrameSwitch">FrameSwitch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="FunctionalSKills">FunctionalSKills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="ListOfDomain">ListOfDomain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="ListOfTech">ListOfTech</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="ListOfTech3">ListOfTech3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="ListOfTech4">ListOfTech4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="MyCareer">MyCareer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="MyCareer1">MyCareer1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="MyCareerArrow">MyCareerArrow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="MyCareerIcon">MyCareerIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="MySkillPath">MySkillPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="MySkills">MySkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="NavigateTo">NavigateTo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="NavigateToSkillUp">NavigateToSkillUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="OrgAssigned">OrgAssigned</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="QuickAccessOneC">QuickAccessOneC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="Scroll">Scroll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="ScrollDown">ScrollDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="ScrollDown1">ScrollDown1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="ScrollDownCTS">ScrollDownCTS</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="ServiceLineQEA">ServiceLineQEA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="SkillingPath">SkillingPath</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="SwitchBackFrame">SwitchBackFrame</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="SwitchFrame1">SwitchFrame1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="SwitchFrame2">SwitchFrame2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="TechnicalSkills">TechnicalSkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="WindowHandling">WindowHandling</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestCases.TestCase1" class="method navigator-link" hash-for-method="supplementorySkills">supplementorySkills</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.TestCase1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AquiredSkills">
+                  </a> <!-- AquiredSkills -->
+                  <span class="method-name">AquiredSkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="BehavioralSkills">
+                  </a> <!-- BehavioralSkills -->
+                  <span class="method-name">BehavioralSkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Clusters">
+                  </a> <!-- Clusters -->
+                  <span class="method-name">Clusters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DomainSkills">
+                  </a> <!-- DomainSkills -->
+                  <span class="method-name">DomainSkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FrameSwitch">
+                  </a> <!-- FrameSwitch -->
+                  <span class="method-name">FrameSwitch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FunctionalSKills">
+                  </a> <!-- FunctionalSKills -->
+                  <span class="method-name">FunctionalSKills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ListOfDomain">
+                  </a> <!-- ListOfDomain -->
+                  <span class="method-name">ListOfDomain</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ListOfTech">
+                  </a> <!-- ListOfTech -->
+                  <span class="method-name">ListOfTech</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ListOfTech3">
+                  </a> <!-- ListOfTech3 -->
+                  <span class="method-name">ListOfTech3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ListOfTech4">
+                  </a> <!-- ListOfTech4 -->
+                  <span class="method-name">ListOfTech4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyCareer">
+                  </a> <!-- MyCareer -->
+                  <span class="method-name">MyCareer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyCareer1">
+                  </a> <!-- MyCareer1 -->
+                  <span class="method-name">MyCareer1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyCareerArrow">
+                  </a> <!-- MyCareerArrow -->
+                  <span class="method-name">MyCareerArrow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyCareerIcon">
+                  </a> <!-- MyCareerIcon -->
+                  <span class="method-name">MyCareerIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MySkillPath">
+                  </a> <!-- MySkillPath -->
+                  <span class="method-name">MySkillPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MySkills">
+                  </a> <!-- MySkills -->
+                  <span class="method-name">MySkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateTo">
+                  </a> <!-- NavigateTo -->
+                  <span class="method-name">NavigateTo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToSkillUp">
+                  </a> <!-- NavigateToSkillUp -->
+                  <span class="method-name">NavigateToSkillUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="OrgAssigned">
+                  </a> <!-- OrgAssigned -->
+                  <span class="method-name">OrgAssigned</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="QuickAccessOneC">
+                  </a> <!-- QuickAccessOneC -->
+                  <span class="method-name">QuickAccessOneC</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scroll">
+                  </a> <!-- Scroll -->
+                  <span class="method-name">Scroll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScrollDown">
+                  </a> <!-- ScrollDown -->
+                  <span class="method-name">ScrollDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScrollDown1">
+                  </a> <!-- ScrollDown1 -->
+                  <span class="method-name">ScrollDown1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScrollDownCTS">
+                  </a> <!-- ScrollDownCTS -->
+                  <span class="method-name">ScrollDownCTS</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ServiceLineQEA">
+                  </a> <!-- ServiceLineQEA -->
+                  <span class="method-name">ServiceLineQEA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SkillingPath">
+                  </a> <!-- SkillingPath -->
+                  <span class="method-name">SkillingPath</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SwitchBackFrame">
+                  </a> <!-- SwitchBackFrame -->
+                  <span class="method-name">SwitchBackFrame</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SwitchFrame1">
+                  </a> <!-- SwitchFrame1 -->
+                  <span class="method-name">SwitchFrame1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SwitchFrame2">
+                  </a> <!-- SwitchFrame2 -->
+                  <span class="method-name">SwitchFrame2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TechnicalSkills">
+                  </a> <!-- TechnicalSkills -->
+                  <span class="method-name">TechnicalSkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="WindowHandling">
+                  </a> <!-- WindowHandling -->
+                  <span class="method-name">WindowHandling</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="supplementorySkills">
+                  </a> <!-- supplementorySkills -->
+                  <span class="method-name">supplementorySkills</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2303783\git\repository3\MyCareerApp\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utils.ExtentReportManager&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;os&quot; value=&quot;windows&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;smoke&quot;/&gt;
+        &lt;include name=&quot;regression&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.TestCase1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">BehavioralSkills</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DomainSkills</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FrameSwitch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ListOfDomain</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ListOfTech</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ListOfTech3</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MyCareer</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MyCareerArrow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MyCareerIcon</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MySkillPath</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MySkills</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NavigateTo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">OrgAssigned</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">QuickAccessOneC</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Scroll</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ServiceLineQEA</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SkillingPath</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SwitchFrame1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AquiredSkills</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Clusters</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">FunctionalSKills</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ListOfTech4</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">MyCareer1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">NavigateToSkillUp</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ScrollDown</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ScrollDown1</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">ScrollDownCTS</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SwitchBackFrame</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">SwitchFrame2</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TechnicalSkills</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">WindowHandling</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">supplementorySkills</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(32);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'ScrollDown')
+data.setCell(0, 2, 'TestCases.TestCase1')
+data.setCell(0, 3, 22086);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ListOfDomain')
+data.setCell(1, 2, 'TestCases.TestCase1')
+data.setCell(1, 3, 20134);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'NavigateTo')
+data.setCell(2, 2, 'TestCases.TestCase1')
+data.setCell(2, 3, 12627);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'MySkills')
+data.setCell(3, 2, 'TestCases.TestCase1')
+data.setCell(3, 3, 10057);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'WindowHandling')
+data.setCell(4, 2, 'TestCases.TestCase1')
+data.setCell(4, 3, 10020);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DomainSkills')
+data.setCell(5, 2, 'TestCases.TestCase1')
+data.setCell(5, 3, 5093);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'BehavioralSkills')
+data.setCell(6, 2, 'TestCases.TestCase1')
+data.setCell(6, 3, 5080);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'FunctionalSKills')
+data.setCell(7, 2, 'TestCases.TestCase1')
+data.setCell(7, 3, 5076);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TechnicalSkills')
+data.setCell(8, 2, 'TestCases.TestCase1')
+data.setCell(8, 3, 5062);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'MyCareer')
+data.setCell(9, 2, 'TestCases.TestCase1')
+data.setCell(9, 3, 5060);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'ListOfTech3')
+data.setCell(10, 2, 'TestCases.TestCase1')
+data.setCell(10, 3, 5056);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'MyCareerIcon')
+data.setCell(11, 2, 'TestCases.TestCase1')
+data.setCell(11, 3, 5051);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'MyCareer1')
+data.setCell(12, 2, 'TestCases.TestCase1')
+data.setCell(12, 3, 5039);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ScrollDown1')
+data.setCell(13, 2, 'TestCases.TestCase1')
+data.setCell(13, 3, 5031);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'NavigateToSkillUp')
+data.setCell(14, 2, 'TestCases.TestCase1')
+data.setCell(14, 3, 3918);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'SwitchFrame2')
+data.setCell(15, 2, 'TestCases.TestCase1')
+data.setCell(15, 3, 2161);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'AquiredSkills')
+data.setCell(16, 2, 'TestCases.TestCase1')
+data.setCell(16, 3, 1516);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ListOfTech')
+data.setCell(17, 2, 'TestCases.TestCase1')
+data.setCell(17, 3, 1481);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'OrgAssigned')
+data.setCell(18, 2, 'TestCases.TestCase1')
+data.setCell(18, 3, 1134);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'MyCareerArrow')
+data.setCell(19, 2, 'TestCases.TestCase1')
+data.setCell(19, 3, 613);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Clusters')
+data.setCell(20, 2, 'TestCases.TestCase1')
+data.setCell(20, 3, 473);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Scroll')
+data.setCell(21, 2, 'TestCases.TestCase1')
+data.setCell(21, 3, 401);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'MySkillPath')
+data.setCell(22, 2, 'TestCases.TestCase1')
+data.setCell(22, 3, 144);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'QuickAccessOneC')
+data.setCell(23, 2, 'TestCases.TestCase1')
+data.setCell(23, 3, 131);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'SkillingPath')
+data.setCell(24, 2, 'TestCases.TestCase1')
+data.setCell(24, 3, 65);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ListOfTech4')
+data.setCell(25, 2, 'TestCases.TestCase1')
+data.setCell(25, 3, 45);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'supplementorySkills')
+data.setCell(26, 2, 'TestCases.TestCase1')
+data.setCell(26, 3, 38);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'ServiceLineQEA')
+data.setCell(27, 2, 'TestCases.TestCase1')
+data.setCell(27, 3, 33);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'FrameSwitch')
+data.setCell(28, 2, 'TestCases.TestCase1')
+data.setCell(28, 3, 28);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'SwitchFrame1')
+data.setCell(29, 2, 'TestCases.TestCase1')
+data.setCell(29, 3, 27);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'ScrollDownCTS')
+data.setCell(30, 2, 'TestCases.TestCase1')
+data.setCell(30, 3, 21);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'SwitchBackFrame')
+data.setCell(31, 2, 'TestCases.TestCase1')
+data.setCell(31, 3, 5);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.TestCase1</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">driverSetUp(windows, chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">ScrollDown</span>
+                <span class="method-start">6779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MyCareer</span>
+                <span class="method-start">28999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">QuickAccessOneC</span>
+                <span class="method-start">34168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ScrollDown1</span>
+                <span class="method-start">34418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MyCareer1</span>
+                <span class="method-start">39563 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SwitchFrame1</span>
+                <span class="method-start">44726 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MyCareerArrow</span>
+                <span class="method-start">44850 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SwitchFrame2</span>
+                <span class="method-start">45578 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ServiceLineQEA</span>
+                <span class="method-start">47858 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SwitchBackFrame</span>
+                <span class="method-start">48020 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MyCareerIcon</span>
+                <span class="method-start">48137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NavigateTo</span>
+                <span class="method-start">53292 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">WindowHandling</span>
+                <span class="method-start">66013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MySkills</span>
+                <span class="method-start">76146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TechnicalSkills</span>
+                <span class="method-start">86310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ListOfTech</span>
+                <span class="method-start">91462 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DomainSkills</span>
+                <span class="method-start">93060 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ListOfDomain</span>
+                <span class="method-start">98272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FunctionalSKills</span>
+                <span class="method-start">118502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ListOfTech3</span>
+                <span class="method-start">123672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">BehavioralSkills</span>
+                <span class="method-start">128841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ListOfTech4</span>
+                <span class="method-start">134059 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">MySkillPath</span>
+                <span class="method-start">134193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">OrgAssigned</span>
+                <span class="method-start">134469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ScrollDownCTS</span>
+                <span class="method-start">135783 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">supplementorySkills</span>
+                <span class="method-start">135925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SkillingPath</span>
+                <span class="method-start">136094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Clusters</span>
+                <span class="method-start">136288 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">NavigateToSkillUp</span>
+                <span class="method-start">136950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FrameSwitch</span>
+                <span class="method-start">140986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scroll</span>
+                <span class="method-start">141109 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">AquiredSkills</span>
+                <span class="method-start">141654 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">143249 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

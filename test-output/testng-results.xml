@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T12:30:32 IST" name="Suite" finished-at="2024-08-27T12:32:56 IST" duration-ms="144604">
+    <groups>
+      <group name="regression">
+        <method signature="TestCase1.MyCareer()[pri:2, instance:TestCases.TestCase1@6f10d5b6]" name="MyCareer" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.QuickAccessOneC()[pri:4, instance:TestCases.TestCase1@6f10d5b6]" name="QuickAccessOneC" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.SwitchFrame1()[pri:7, instance:TestCases.TestCase1@6f10d5b6]" name="SwitchFrame1" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.MyCareerArrow()[pri:8, instance:TestCases.TestCase1@6f10d5b6]" name="MyCareerArrow" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.ServiceLineQEA()[pri:10, instance:TestCases.TestCase1@6f10d5b6]" name="ServiceLineQEA" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.MyCareerIcon()[pri:12, instance:TestCases.TestCase1@6f10d5b6]" name="MyCareerIcon" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.NavigateTo()[pri:13, instance:TestCases.TestCase1@6f10d5b6]" name="NavigateTo" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.MySkills()[pri:15, instance:TestCases.TestCase1@6f10d5b6]" name="MySkills" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.ListOfTech()[pri:17, instance:TestCases.TestCase1@6f10d5b6]" name="ListOfTech" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.DomainSkills()[pri:18, instance:TestCases.TestCase1@6f10d5b6]" name="DomainSkills" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.ListOfDomain()[pri:19, instance:TestCases.TestCase1@6f10d5b6]" name="ListOfDomain" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.ListOfTech3()[pri:21, instance:TestCases.TestCase1@6f10d5b6]" name="ListOfTech3" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.BehavioralSkills()[pri:22, instance:TestCases.TestCase1@6f10d5b6]" name="BehavioralSkills" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.MySkillPath()[pri:24, instance:TestCases.TestCase1@6f10d5b6]" name="MySkillPath" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.OrgAssigned()[pri:25, instance:TestCases.TestCase1@6f10d5b6]" name="OrgAssigned" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.SkillingPath()[pri:28, instance:TestCases.TestCase1@6f10d5b6]" name="SkillingPath" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.FrameSwitch()[pri:31, instance:TestCases.TestCase1@6f10d5b6]" name="FrameSwitch" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.Scroll()[pri:32, instance:TestCases.TestCase1@6f10d5b6]" name="Scroll" class="TestCases.TestCase1"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestCase1.ScrollDown()[pri:1, instance:TestCases.TestCase1@6f10d5b6]" name="ScrollDown" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.ScrollDown1()[pri:5, instance:TestCases.TestCase1@6f10d5b6]" name="ScrollDown1" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.MyCareer1()[pri:6, instance:TestCases.TestCase1@6f10d5b6]" name="MyCareer1" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.SwitchFrame2()[pri:9, instance:TestCases.TestCase1@6f10d5b6]" name="SwitchFrame2" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.SwitchBackFrame()[pri:11, instance:TestCases.TestCase1@6f10d5b6]" name="SwitchBackFrame" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.WindowHandling()[pri:14, instance:TestCases.TestCase1@6f10d5b6]" name="WindowHandling" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.TechnicalSkills()[pri:16, instance:TestCases.TestCase1@6f10d5b6]" name="TechnicalSkills" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.FunctionalSKills()[pri:20, instance:TestCases.TestCase1@6f10d5b6]" name="FunctionalSKills" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.ListOfTech4()[pri:23, instance:TestCases.TestCase1@6f10d5b6]" name="ListOfTech4" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.ScrollDownCTS()[pri:26, instance:TestCases.TestCase1@6f10d5b6]" name="ScrollDownCTS" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.supplementorySkills()[pri:27, instance:TestCases.TestCase1@6f10d5b6]" name="supplementorySkills" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.Clusters()[pri:29, instance:TestCases.TestCase1@6f10d5b6]" name="Clusters" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.NavigateToSkillUp()[pri:30, instance:TestCases.TestCase1@6f10d5b6]" name="NavigateToSkillUp" class="TestCases.TestCase1"/>
+        <method signature="TestCase1.AquiredSkills()[pri:33, instance:TestCases.TestCase1@6f10d5b6]" name="AquiredSkills" class="TestCases.TestCase1"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-08-27T12:30:32 IST" name="Test" finished-at="2024-08-27T12:32:56 IST" duration-ms="144604">
+      <class name="TestCases.TestCase1">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String,java.lang.String)[pri:0, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:30:32 IST" name="driverSetUp" finished-at="2024-08-27T12:30:39 IST" duration-ms="6751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="ScrollDown()[pri:1, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:30:39 IST" name="ScrollDown" finished-at="2024-08-27T12:31:01 IST" duration-ms="22086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollDown -->
+        <test-method signature="MyCareer()[pri:2, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:01 IST" name="MyCareer" finished-at="2024-08-27T12:31:06 IST" duration-ms="5060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyCareer -->
+        <test-method signature="QuickAccessOneC()[pri:4, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:06 IST" name="QuickAccessOneC" finished-at="2024-08-27T12:31:06 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuickAccessOneC -->
+        <test-method signature="ScrollDown1()[pri:5, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:06 IST" name="ScrollDown1" finished-at="2024-08-27T12:31:11 IST" duration-ms="5031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollDown1 -->
+        <test-method signature="MyCareer1()[pri:6, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:11 IST" name="MyCareer1" finished-at="2024-08-27T12:31:16 IST" duration-ms="5039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyCareer1 -->
+        <test-method signature="SwitchFrame1()[pri:7, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:17 IST" name="SwitchFrame1" finished-at="2024-08-27T12:31:17 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchFrame1 -->
+        <test-method signature="MyCareerArrow()[pri:8, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:17 IST" name="MyCareerArrow" finished-at="2024-08-27T12:31:17 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyCareerArrow -->
+        <test-method signature="SwitchFrame2()[pri:9, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:17 IST" name="SwitchFrame2" finished-at="2024-08-27T12:31:20 IST" duration-ms="2161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchFrame2 -->
+        <test-method signature="ServiceLineQEA()[pri:10, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:20 IST" name="ServiceLineQEA" finished-at="2024-08-27T12:31:20 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ServiceLineQEA -->
+        <test-method signature="SwitchBackFrame()[pri:11, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:20 IST" name="SwitchBackFrame" finished-at="2024-08-27T12:31:20 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SwitchBackFrame -->
+        <test-method signature="MyCareerIcon()[pri:12, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:20 IST" name="MyCareerIcon" finished-at="2024-08-27T12:31:25 IST" duration-ms="5051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyCareerIcon -->
+        <test-method signature="NavigateTo()[pri:13, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:25 IST" name="NavigateTo" finished-at="2024-08-27T12:31:38 IST" duration-ms="12627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateTo -->
+        <test-method signature="WindowHandling()[pri:14, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:38 IST" name="WindowHandling" finished-at="2024-08-27T12:31:48 IST" duration-ms="10020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WindowHandling -->
+        <test-method signature="MySkills()[pri:15, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:48 IST" name="MySkills" finished-at="2024-08-27T12:31:58 IST" duration-ms="10057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySkills -->
+        <test-method signature="TechnicalSkills()[pri:16, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:31:58 IST" name="TechnicalSkills" finished-at="2024-08-27T12:32:03 IST" duration-ms="5062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TechnicalSkills -->
+        <test-method signature="ListOfTech()[pri:17, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:03 IST" name="ListOfTech" finished-at="2024-08-27T12:32:05 IST" duration-ms="1481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListOfTech -->
+        <test-method signature="DomainSkills()[pri:18, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:05 IST" name="DomainSkills" finished-at="2024-08-27T12:32:10 IST" duration-ms="5093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DomainSkills -->
+        <test-method signature="ListOfDomain()[pri:19, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:10 IST" name="ListOfDomain" finished-at="2024-08-27T12:32:30 IST" duration-ms="20134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListOfDomain -->
+        <test-method signature="FunctionalSKills()[pri:20, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:30 IST" name="FunctionalSKills" finished-at="2024-08-27T12:32:35 IST" duration-ms="5076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FunctionalSKills -->
+        <test-method signature="ListOfTech3()[pri:21, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:36 IST" name="ListOfTech3" finished-at="2024-08-27T12:32:41 IST" duration-ms="5056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListOfTech3 -->
+        <test-method signature="BehavioralSkills()[pri:22, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:41 IST" name="BehavioralSkills" finished-at="2024-08-27T12:32:46 IST" duration-ms="5080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BehavioralSkills -->
+        <test-method signature="ListOfTech4()[pri:23, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:46 IST" name="ListOfTech4" finished-at="2024-08-27T12:32:46 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ListOfTech4 -->
+        <test-method signature="MySkillPath()[pri:24, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:46 IST" name="MySkillPath" finished-at="2024-08-27T12:32:46 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySkillPath -->
+        <test-method signature="OrgAssigned()[pri:25, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:46 IST" name="OrgAssigned" finished-at="2024-08-27T12:32:47 IST" duration-ms="1134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrgAssigned -->
+        <test-method signature="ScrollDownCTS()[pri:26, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:48 IST" name="ScrollDownCTS" finished-at="2024-08-27T12:32:48 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollDownCTS -->
+        <test-method signature="supplementorySkills()[pri:27, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:48 IST" name="supplementorySkills" finished-at="2024-08-27T12:32:48 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supplementorySkills -->
+        <test-method signature="SkillingPath()[pri:28, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:48 IST" name="SkillingPath" finished-at="2024-08-27T12:32:48 IST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SkillingPath -->
+        <test-method signature="Clusters()[pri:29, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:48 IST" name="Clusters" finished-at="2024-08-27T12:32:49 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clusters -->
+        <test-method signature="NavigateToSkillUp()[pri:30, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:49 IST" name="NavigateToSkillUp" finished-at="2024-08-27T12:32:53 IST" duration-ms="3918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToSkillUp -->
+        <test-method signature="FrameSwitch()[pri:31, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:53 IST" name="FrameSwitch" finished-at="2024-08-27T12:32:53 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrameSwitch -->
+        <test-method signature="Scroll()[pri:32, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:53 IST" name="Scroll" finished-at="2024-08-27T12:32:53 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scroll -->
+        <test-method signature="AquiredSkills()[pri:33, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:54 IST" name="AquiredSkills" finished-at="2024-08-27T12:32:55 IST" duration-ms="1516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AquiredSkills -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.TestCase1@6f10d5b6]" started-at="2024-08-27T12:32:55 IST" name="tearDown" finished-at="2024-08-27T12:32:56 IST" duration-ms="1097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

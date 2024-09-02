@@ -1,0 +1,240 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Aug 27 12:30:32 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>144 seconds (144604 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.TestCase1.BehavioralSkills()'><b>BehavioralSkills</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.SwitchFrame1()'><b>SwitchFrame1</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.MyCareer1()'><b>MyCareer1</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.MyCareerArrow()'><b>MyCareerArrow</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.MySkills()'><b>MySkills</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>10</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.ListOfDomain()'><b>ListOfDomain</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>20</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.Clusters()'><b>Clusters</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.ScrollDownCTS()'><b>ScrollDownCTS</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.Scroll()'><b>Scroll</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.ScrollDown1()'><b>ScrollDown1</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.supplementorySkills()'><b>supplementorySkills</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.FunctionalSKills()'><b>FunctionalSKills</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.SwitchFrame2()'><b>SwitchFrame2</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>2</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.TechnicalSkills()'><b>TechnicalSkills</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.OrgAssigned()'><b>OrgAssigned</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>1</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.WindowHandling()'><b>WindowHandling</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>10</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.FrameSwitch()'><b>FrameSwitch</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.DomainSkills()'><b>DomainSkills</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.MyCareerIcon()'><b>MyCareerIcon</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.MySkillPath()'><b>MySkillPath</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.QuickAccessOneC()'><b>QuickAccessOneC</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.ListOfTech3()'><b>ListOfTech3</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.AquiredSkills()'><b>AquiredSkills</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>1</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.SwitchBackFrame()'><b>SwitchBackFrame</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.ListOfTech()'><b>ListOfTech</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>1</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.ServiceLineQEA()'><b>ServiceLineQEA</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.NavigateToSkillUp()'><b>NavigateToSkillUp</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>3</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.ListOfTech4()'><b>ListOfTech4</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.SkillingPath()'><b>SkillingPath</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>0</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.MyCareer()'><b>MyCareer</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>5</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.NavigateTo()'><b>NavigateTo</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>12</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+<tr>
+<td title='TestCases.TestCase1.ScrollDown()'><b>ScrollDown</b><br>Test class: TestCases.TestCase1</td>
+<td></td>
+<td>22</td>
+<td>TestCases.TestCase1@6f10d5b6</td></tr>
+</table><p>
+</body>
+</html>
